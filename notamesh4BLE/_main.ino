@@ -68,7 +68,7 @@ uint16_t StartLed = 0;                                      //для каждо�
 uint16_t EndLed;                                            //для каждого эффекта конечная позиция  светодиодов в гирлянде
 #endif
 
-uint8_t max_bright = 255;                                     // Overall brightness definition. It can be changed on the fly.
+uint8_t max_bright = 160;                                     // Overall brightness definition. It can be changed on the fly.
 
 struct CRGB leds[MAX_LEDS];                                   // Initialize our LED array. We'll be using less in operation.
 
